@@ -16,7 +16,7 @@ uvicorn main:app --host 0.0.0.0 --port 3006
 
 **Warning**: The first run will be VERY slow to load
 
-Visit `http://localhost:3005/docs` in a browser once it's loaded
+Visit `http://localhost:3006/docs` in a browser once it's loaded
 
 Call it in python like this:
 
