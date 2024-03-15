@@ -1,4 +1,4 @@
-# InstructorVec
+# BreadVec
 
 A small vector API service for generating mixedbred.ai vectors.  It's currently using the mxbai-embed-large-v1 model.
 
