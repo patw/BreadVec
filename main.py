@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 from sentence_transformers.util import cos_sim
 
 # Bread.ai model(s)
-model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1", device='cpu')
+model = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
 default_instruction = "Represent this sentence for searching relevant passages:"
 
 app = FastAPI(title="BreadVectorizer",
