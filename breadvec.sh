@@ -1,2 +1,2 @@
 #!/bin/bash
-uvicorn main:app --host 0.0.0.0 --port 3006
+python3 -m uvicorn main:app --host 0.0.0.0 --port 3006
